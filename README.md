@@ -1,4 +1,4 @@
 ### Minecraft: Sound Engineers
 
-# LICENSE
+### LICENSE
   This mod is licensed under the MIT license
