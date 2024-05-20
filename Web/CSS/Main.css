@@ -122,6 +122,7 @@
 
 .right-button-container {
   float: right;
+  margin-right: 40px;
 }
 
 .button-admin {
@@ -228,9 +229,9 @@
 
 .a-to-p {
   text-decoration: none;
-  color: rgb(255, 255, 255);
-  margin-left: 20px;
-  font-size: 200%;
+  color: rgb(0, 0, 0);
+  /*margin-left: 20px;*/
+  font-size: 100%;
 }
 
 .indexbody {
@@ -264,7 +265,7 @@
 }
 
 p {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .top-div-center {
@@ -303,4 +304,8 @@ p {
 .container-AKG-DST-99-S button {
   display: inline-block;
   vertical-align: middle;
+}
+
+a {
+  cursor: pointer;
 }
