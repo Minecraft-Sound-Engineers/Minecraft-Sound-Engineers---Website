@@ -9,7 +9,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod(YourMod.MODID)
+@Mod(minecraftsoundengineers.MODID)
 public class YourMod {
     public static final String MODID = "yourmodid";
     private static final Logger LOGGER = LogManager.getLogger();
