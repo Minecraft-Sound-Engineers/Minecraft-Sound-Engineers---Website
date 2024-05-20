@@ -1,4 +1,4 @@
-##### Minecraft-SoundEngineers---Main-Mod
+### Minecraft-SoundEngineers---Main-Mod
 
-### LICENSE
+# LICENSE
   This mod is licensed under the MIT license
