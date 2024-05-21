@@ -5,4 +5,4 @@
 
 ## Website:
   This mods website can be found 
-  [Here](https://minecraft-sound-engineers.github.io/Minecraft-SoundEngineers---Main-Mod/)
+  [here](https://minecraft-sound-engineers.github.io/Minecraft-SoundEngineers---Main-Mod/)
