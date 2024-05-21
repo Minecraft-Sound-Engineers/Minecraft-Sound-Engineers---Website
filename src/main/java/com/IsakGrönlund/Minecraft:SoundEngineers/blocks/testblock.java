@@ -10,5 +10,6 @@ public class CustomBlock extends Block {
       .harvestLevel(2) // Iron level
       .harvestTool(net.minecraft.item.ToolType.PICKAXE)
       .setRequiresTool());
+      +å
     }
 }
