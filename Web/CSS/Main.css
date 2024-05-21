@@ -237,7 +237,7 @@ a {
   cursor: pointer;
 }
 
-/*
+
 .body-background-index {
   position: relative;
   margin: 0;
@@ -247,19 +247,14 @@ a {
 .body-background-index::before {
   content: "";
   position: absolute;
-  top: 150px; /* Adjust the value for top margin 
+  top: 150px; /* Adjust the value for top margin */
   left: 0;
   width: 100%;
-  height: calc(100% - 100px); /* Adjust height to fit the remaining space 
+  height: calc(100% - 100px); /* Adjust height to fit the remaining space */
   background-image: url('../../logo.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  z-index: -1; /* Ensure the background is behind the content 
+  z-index: -1; /* Ensure the background is behind the content */
 }
-*/
 
-.backgrond-img {
-  z-index: -1;
-  margin-top: 175px;
-}
