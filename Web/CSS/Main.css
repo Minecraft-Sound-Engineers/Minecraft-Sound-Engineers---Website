@@ -76,7 +76,20 @@
   color: #fff; /* Example text color */
   padding: 20px;
   z-index: 1000; /* Ensure header is above other content */
+  left: 0;
 }
+
+.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #3abe6d; /* Example background color */
+  color: #fff; /* Example text color */
+  padding: 20px;
+  z-index: 1000; /* Ensure footer is above other content */
+  left: 0;
+}
+
 
 .lastupdated {
   padding-left: 20px;
@@ -228,7 +241,7 @@
   align-items: center;
 }
 
-.top-div {
+.maincontent {
   margin-top: 170px;
   margin-left: 20px;
 }
@@ -237,24 +250,20 @@ a {
   cursor: pointer;
 }
 
-
 .body-background-index {
-  position: relative;
-  margin: 0;
-  padding: 0;
-}
-
-.body-background-index::before {
-  content: "";
-  position: absolute;
-  top: 150px; /* Adjust the value for top margin */
-  left: 0;
-  width: 100%;
-  height: calc(100% - 100px); /* Adjust height to fit the remaining space */
-  background-image: url('../../logo.jpeg');
   background-size: cover;
+  background-image: url('../../pics/logo.jpeg');
   background-repeat: no-repeat;
-  background-position: center;
-  z-index: -1; /* Ensure the background is behind the content */
+  background-position: center 147px; /* Adjust the value as needed */
 }
 
+.body-background-downloads {
+  background-size: cover;
+  background-image: url('../../pics/Stage.jpeg');
+  background-repeat: no-repeat;
+  background-position: center 147px;
+}
+
+.download {
+  color: rgb(255, 255, 255);
+}
