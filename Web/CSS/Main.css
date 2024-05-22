@@ -83,11 +83,11 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #3abe6d; /* Example background color */
   color: #fff; /* Example text color */
   padding: 20px;
   z-index: 1000; /* Ensure footer is above other content */
   left: 0;
+  align-items: center;
 }
 
 
@@ -197,8 +197,7 @@
 
 .a-to-p {
   text-decoration: none;
-  color: rgb(0, 0, 0);
-  margin-left: 20px;
+  color: rgb(255, 255, 255);
   font-size: 100%;
 }
 
@@ -208,7 +207,6 @@
 
 .our-products {
   color: rgb(255, 255, 255);
-  margin-left: 20px;
   font-size: 200%;
 }
 
@@ -266,4 +264,5 @@ a {
 
 .download {
   color: rgb(255, 255, 255);
+  margin-left: 20px;
 }
