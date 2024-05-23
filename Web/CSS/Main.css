@@ -76,7 +76,7 @@
   background-color: #3abe6d; /* Example background color */
   color: #fff; /* Example text color */
   padding: 20px;
-  z-index: 1000; /* Ensure header is above other content */
+  z-index: 1; /* Ensure header is above other content */
   left: 0;
 }
 
@@ -263,7 +263,7 @@ a {
   
   visibility: hidden; /* added */
   opacity: 0; /* added */
-  transition: visibility 0.5s, opacity 0.5s linear, left 0.5s linear; /* added (animation) */
+  transition: visibility 0.2s, opacity 0.2s linear, left 0.2s linear; /* added (animation) */
   
   width: 200px;
   height: 100vh;
@@ -271,7 +271,7 @@ a {
   padding: 20px;
   position: fixed;
   left: -10%;
-  z-index: 2000;
+  z-index: 2;
   top: 0;
 }
 
