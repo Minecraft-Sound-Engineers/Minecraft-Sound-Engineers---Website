@@ -3,20 +3,27 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Minecraft: Sound Engineers - Downloads</title>
+      <title>Minecraft Sound Engineers - Downloads</title>
       <link rel="stylesheet" href="../../CSS/Main.css">
-      <link rel="stylesheet" href="../../CSS/tablet & computer/aspect-ratio.css">
+      <link rel="stylesheet" href="../../CSS/mobile/aspect-ratio.css">
       <script src="../../JS/Main.js"></script>
     </head>
     <body class="body-background-downloads">
       <header class="sticky-header">
-        <h2 class="header-title">Minecraft: Sound Engineers - Home</h2>
-        <div class="right-button-container">
-          <a href="index.html" class="button">Home</a>
-          <a href="Downloads.html" class="button">Downloads</a>
-          <a href="../mobile/index.html" class="button">Change to mobile</a>
+        <div class="hamburger-menu" onclick="showSideBar()">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
         </div>
+        <h2 class="header-title">Minecraft: Sound Engineers - Downloads</h2>
       </header>
+      <div class="sidebar">
+        <h2 style="color: rgb(255, 255, 255);">Navigationbar</h2>
+        <a class="button" href="index.html">Home</a>
+        <a class="button" href="Downloads.html">Downloads</a>
+        <a class="button" href="../tablet & comuter/index.html">Change to Desktop</a>
+        <button class="button" onclick="hideSideBar()">Close</button>
+      </div>
       <div class="maincontent">
         <p>Mod downloads:</p>
         <a class="button" href="https://legacy.curseforge.com/minecraft/mc-mods/minecraftsoundengineers">Curseforge</a>
