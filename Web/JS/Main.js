@@ -1,7 +1,7 @@
 function showSideBar() {
-  document.querySelector('.sidedebar').classList.add('open');
+  document.querySelector('.sidebar').classList.add('open');
 }
 
 function hideSideBar() {
-  document.querySelector('.sidedebar').classList.remove('open');
+  document.querySelector('.sidebar').classList.remove('open');
 }
