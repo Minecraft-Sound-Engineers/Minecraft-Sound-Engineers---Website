@@ -266,3 +266,43 @@ a {
   color: rgb(255, 255, 255);
   margin-left: 20px;
 }
+
+.sidebar {
+  /* display: none; removed */
+  
+  visibility: hidden; /* added */
+  opacity: 0; /* added */
+  transition: visibility 0.5s, opacity 0.5s linear, left 0.5s linear; /* added (animation) */
+  
+  width: 200px;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 5px;
+  position: fixed;
+  top: 0;
+  left: -10%;
+  background-color: rgb(0, 0, 0);
+}
+
+.sidebar.open {
+  visibility: visible; /* added */
+  opacity: 1; /* added */
+  left: 0;
+  margin-left: 15px;
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.line {
+  height: 4px;
+  background-color: #333;
+  border-radius: 2px;
+}

@@ -1,0 +1,13 @@
+@media (max-aspect-ratio: 9/16) {
+  /* Styles for aspect ratios less than or equal to 16:9 */
+  body {
+      background-color: white;
+  }
+}
+
+@media (min-aspect-ratio: 9/16) {
+  /* Styles for aspect ratios greater than or equal to 16:9 */
+  body {
+      background-color: white;
+  }
+}
