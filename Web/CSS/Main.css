@@ -282,6 +282,7 @@ a {
   background: none;
   cursor: pointer;
   text-align: left;
+  left: -10;
 }
 
 .sidebar button:hover, .sidebar a:hover {
