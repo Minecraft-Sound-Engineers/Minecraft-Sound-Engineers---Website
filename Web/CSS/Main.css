@@ -76,7 +76,7 @@
   background-color: #3abe6d; /* Example background color */
   color: #fff; /* Example text color */
   padding: 20px;
-  z-index: 1; /* Ensure header is above other content */
+  z-index: 2; /* Ensure header is above other content */
   left: 0;
 }
 
@@ -229,11 +229,6 @@
   align-items: center;
 }
 
-.maincontent {
-  margin-top: 170px;
-  margin-left: 20px;
-}
-
 a {
   cursor: pointer;
   color: rgb(0, 0, 0);
@@ -267,7 +262,7 @@ a {
   left: -200px; /* Initially hide sidebar */
   transition: left 0.4s linear; /* Slide in effect */
   padding: 20px; /* Add some padding */
-  z-index: 2; /* Above other elements */
+  z-index: 3; /* Above other elements */
 }
 
 .sidebar.open {
@@ -296,6 +291,8 @@ a {
 .content {
   padding: 20px;
   transition: margin-left 0.4s linear; /* Smooth content shift */
+  margin-top: 170px;
+  margin-left: 20px;
 }
 
 .content.shift {
