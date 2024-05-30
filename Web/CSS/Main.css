@@ -259,7 +259,7 @@ a {
   background-color: black; /* Sidebar color */
   position: fixed; /* Fixed position */
   top: 0; /* Align to top */
-  left: -200px; /* Initially hide sidebar */
+  left: -300px; /* Initially hide sidebar */
   transition: left 0.4s linear; /* Slide in effect */
   padding: 20px; /* Add some padding */
   z-index: 3; /* Above other elements */
@@ -282,7 +282,6 @@ a {
   background: none;
   cursor: pointer;
   text-align: left;
-  left: -10;
 }
 
 .sidebar button:hover, .sidebar a:hover {
