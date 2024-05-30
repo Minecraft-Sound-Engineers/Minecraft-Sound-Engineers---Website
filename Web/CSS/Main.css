@@ -254,6 +254,7 @@ a {
 }
 
 .sidebar {
+  visibility: hidden;
   height: 100vh; /* Full viewport height */
   width: 200px;  /* Sidebar width */
   background-color: black; /* Sidebar color */
@@ -266,6 +267,7 @@ a {
 }
 
 .sidebar.open {
+  visibility: visible;
   left: 0; /* Show sidebar */
 }
 
