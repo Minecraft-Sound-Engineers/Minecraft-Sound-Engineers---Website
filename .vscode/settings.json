@@ -1,0 +1,38 @@
+{
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.NoBrowser": false,
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.root": "/",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.useLocalIp": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "autoTask.tasks": [
+    {
+      "name": "Start Live Server",
+      "runOn": "folderOpen"
+    }
+  ]
+}
+
+{
+  "settingsSync.tasks": [
+    {
+      "label": "Start Live Server",
+      "type": "shell",
+      "command": "live-server --open=public",
+      "args": []
+    }
+  ]
+}
+
+{
+  "autoTask.tasks": [
+    {
+      "name": "Start Live Server",
+      "runOn": "folderOpen"
+    }
+  ]
+}
