@@ -78,6 +78,7 @@
   padding: 20px;
   z-index: 1; /* Ensure header is above other content */
   left: 0;
+  height: 114.812px;
 }
 
 
@@ -126,6 +127,7 @@
 .right-button-container {
   float: right;
   margin-right: 50px;
+  top: 0;
 }
 
 .button-admin {
