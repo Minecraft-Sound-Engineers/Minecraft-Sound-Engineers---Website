@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Sound Engineers - Home</title>
+    <link rel="stylesheet" href="../CSS/main.css">
+    <script src="../JS/main.js"></script>
+    <script>
+      function loadHeader() {
+      fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('header').innerHTML = data;
+        });
+      }
+      window.onload = loadHeader;
+    </script>
+  </head>
+  <body>
+    <div id="header"></div>
+    
+  </body>
+</html>
