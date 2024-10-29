@@ -1,0 +1,22 @@
+<table>
+    <thead>
+        <tr>
+            <th>Minecraft Version</th>
+            <th>Mod Version</th>
+            <th>Name</th>
+            <th>Uploaded</th>
+            <th>Downloads</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% for (let i in versions) { %>
+            <tr>
+                <td><%= versions[i].mversion %></td>
+                <td><%= versions[i].version %></td>
+                <td><%= versions[i].name %></td>
+                <td><%= versions[i].uploaded %></td>
+                <td><%= versions[i].downloads %></td>
+            </tr>
+        <% } %>
+    </tbody>
+</table>
