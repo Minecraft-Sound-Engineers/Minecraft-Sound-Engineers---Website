@@ -37,6 +37,27 @@ mongoose
         console.error('Error connecting to MongoDB', err)
     })
 
+
+function authenticate(req, res, next) {
+    // Example: check for token in cookies or session
+    const token = req.cookies.token;
+    if (!token) {
+        return res.redirect('/auth/login');
+    }
+    
+    // Assuming token verifies and fetches the user
+    jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
+        if (err) {
+            return res.redirect('/auth/login');
+        }
+
+        // Add the user information to the req object
+        req.user = { username: decoded.username };
+        next();
+    });
+}
+    
+
 app.post('/add-version', async (req, res) => {
     try {
         const { name, mversion, version } = req.body;
@@ -56,6 +77,9 @@ app.post('/add-version', async (req, res) => {
 });
 
 app.get('/admin', (req, res) => {
+    if (!req.user) {
+        return res.redirect('/auth/login');
+    }
     res.render('admin', { user: req.user });
 });
 
